@@ -35,7 +35,7 @@
 	}
 	/* End Main Menu Area css
 	============================================================================================ */
-	/* Home Banner Area css
+	/* home Banner Area css
 	============================================================================================ */
 	.home_banner_area {
 		min-height: 700px;
@@ -43,7 +43,7 @@
 	.home_banner_area .banner_inner {
 		min-height: 700px;
 	}
-	/* End Home Banner Area css
+	/* End home Banner Area css
 	============================================================================================ */
 
 	/* Element Area css
@@ -393,7 +393,7 @@
 	.header_area + section, .header_area + row, .header_area + div {
 		margin-top: 71px;
 	}
-    /* Home Banner Area css
+    /* home Banner Area css
     ============================================================================================ */
     .home_banner_area .banner_inner .banner_content h2 {
     	font-size: 28px;
@@ -413,7 +413,7 @@
     .home_banner_area .banner_inner .banner_content h5 {
     	margin-top: 0px;
     }
-	/* End Home Banner Area css
+	/* End home Banner Area css
 	============================================================================================ */
 	.p_120 {
 		padding-top: 70px;
@@ -493,7 +493,7 @@
 	/* End Main Menu Area css
 	============================================================================================ */
 	
-	/* Home Banner Area css
+	/* home Banner Area css
 	============================================================================================ */
 	.home_banner_area .banner_inner .banner_content {
 		padding: 30px 15px;
@@ -502,7 +502,7 @@
 	.banner_content .white_btn {
 		display: block;
 	}
-	/* End Home Banner Area css
+	/* End home Banner Area css
 	============================================================================================ */
 	.banner_area .banner_inner .banner_content h2 {
 		font-size: 32px;

@@ -26,6 +26,20 @@ router.get('/signUp1',(req,res)=>{
     res.render('home/signUp1');
 });
 
+router.get('/p_login',(req,res)=>{
+    res.render('home/p_login');
+});
+router.get('/thank_you',(req,res)=>{
+    res.render('home/thank_you');
+});
+
+router.get('/admin',(req,res)=>{
+    res.render('home/admin');
+});
+
+router.get('/patient',(req,res)=>{
+    res.render('home/patient');
+});
 /*
 router.get('/post',(req,res)=>{
     res.render('home/post');

@@ -6,7 +6,7 @@ const path = require('path');
 //we add the handlebars engine module
 const exphbs = require('express-handlebars');
 //connecting the routes/home/main file to index file to make them see each other
-const main = require('./routes/home/main');
+const main = require('./routes/main');
 //require body parser to parse date from front-end
 const bodyParser = require('body-parser');
 //setting the methodoverride to be able to use put,patch,etc in the url
@@ -38,5 +38,5 @@ app.use('/',main);
 
 
 
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 2000;
 app.listen(port, () => console.log(`Listening on port ${port}...`));

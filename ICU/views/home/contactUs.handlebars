@@ -8,8 +8,8 @@
             <div class="mb-3 mb-md-0">
               <h2>Contact Us</h2>
             <div class="page_link">
-              <a href="index.handlebars">Home</a>
-              <a href="contactUs.handlebars">Contact Us</a>
+              <a href="/">Home</a>
+              <a href="/contactUs">Contact Us</a>
             </div>
           </div>
         </div>
@@ -25,7 +25,7 @@
                     <div class="col-lg-12">
                         <div class="appointment-form">
                             <h3>Leave your complain/suggestion here:</h3>
-                            <form action="thankyou.handlebars" method="get">
+                            <form action="/thank_you" method="get">
                                 <div class="form-group">
                                     <label>Full Name:</label>
                                     <input type="text" placeholder="Your Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Name'" required>
@@ -43,7 +43,7 @@
                                     <label>Complain/Suggestion:</label>
                                     <textarea name="message" cols="20" rows="7"  placeholder="Message" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Message'" required></textarea>
                                 </div>
-                                <a href="thankyou.handlebars" class="main_btn">Send</a>
+                                <a href="/thank_you" class="main_btn">Send</a>
                             </form>
                         </div>
                     </div>
@@ -60,73 +60,5 @@
 
 
         <!--================ Start Brands Area =================-->
-
-      <!-- start footer Area -->
-      <footer class="footer-area area-padding-top">
-         <div class="container">
-             <div class="row">
-
-         </div>
-       </div>
-               <div class="row footer-bottom d-flex justify-content-between">
-             <p class="col-lg-8 col-sm-12 footer-text m-0">
-                 <!-- <! Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
- <!-- Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> -->
- <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-             <!-- </p> -->
-             <div class="col-lg-4 col-sm-12 footer-social">
-               <p >You can visit our pages on</p>
-                 <a href="#"><i class="fab fa-facebook-f"></i></a>
-                 <a href="#"><i class="fab fa-twitter"></i></a>
-
-             </div>
-           </div>
-
- </footer>
- <!-- End footer Area -->
-
-
- <script>
-     $(document).ready(function(){
-       var date_input=$('input[name="date"]'); //our date input has the name "date"
-       var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
-       var options={
-         format: 'MM/DD/yyyy',
-         container: container,
-         todayHighlight: true,
-         autoclose: true,
-       };
-       date_input.datepicker(options);
-     })
- </script>
-
- <script>
- // Script to open and close sidebar
- function w3_open() {
-   document.getElementById("mySidebar").style.display = "block";
-   document.getElementById("myOverlay").style.display = "block";
- }
-
- function w3_close() {
-   document.getElementById("mySidebar").style.display = "none";
-   document.getElementById("myOverlay").style.display = "none";
- }
-
- </script>
-
-
- <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-
- <!-- Include Date Range Picker -->
- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
-
-
-
- </script>
- <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
- <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-
 
 
