@@ -1,12 +1,15 @@
 const express = require('express');
 const router = express.Router();
-const mysql = require('mysql');
+const mysql = require('mysql2');
 let sqlConnection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     database: 'icu'
 });
-
+sqlConnection.connect((err) =>{
+    if(err) throw err;
+    console.log('Mysql Connected...');
+});
 
 router.all('/*', (req, res, next) => {
     req.app.locals.layout = 'home';
@@ -53,7 +56,7 @@ router.post('/update_ssn',(req,res)=>{ //er1
     sqlConnection.query(sql, (err, rows, fileds) => {
         if (!err) {
             console.log('doctor updated');
-            res.redirect('/home/doctor'); //er1
+            res.redirect('home/doctor'); //er1
         } else {
             console.log(err);
         }
@@ -65,31 +68,32 @@ router.post('/update_ssn',(req,res)=>{ //er1
 
 
 // insert doctor
-router.get('/signUp1',(req,res)=>{
+router.get('/sgnUp1',(req,res)=>{
     res.render('home/signUp1');
 });
-router.post('/signUp1', (req, res, req.body.fname, req.body.lname, req.body.ssn, req.body.id,  req.body.address, req.body.position, req.body.bd, req.body.depart, req.body.email, req.body.gender, req.body.phone, req.body.degree,req.body.password,req.body.confirm_password) =>{
-    //function(req, res, req.body.fname, req.body.lname, req.body.ssn, req.body.id,  req.body.address, req.body.position, req.body.bd, req.body.depart, req.body.email, req.body.gender, req.body.phone, req.body.degree,req.body.password,req.body.confirm_password){
+router.post('/signUp1', (req, res) => {
+
         if (req.body.password !== req.body.confirm_password) {
 
             console.log("passwords don't match");}
-            else {
-            sqlConnection.query(`INSERT INTO doctor(F_Name,L_Name,SSN,ID,Address,Position,Degree,birth-of-date,Department,E-mail,Password)VALUES('${fname}','${lname}','${ssn}','${id}' ,'${address}','${position}','${degree}','${bd}','${depart}','${email}','${password})`, (err, rows, fields) => {
-                if (!err) {
-                    if (req.body.id == 0) {
-                        res.redirect('./routes/home/admin');
-                    }
-                    else {
-                        res.redirect('./routes/home/doctor');
-                    }
-                    console.log('Doctor inserted');
-                } else {
-                    console.log(err);
+            else{
+        sqlConnection.query(`INSERT INTO doctor(F_Name,L_Name,SSN,ID,Address,Position,Degree,birth-of-date,Department,E-mail,Password)VALUES('${req.body.fname}','${req.body.lname}','${req.body.ssn}','${req.body.id}' ,'${req.body.address}','${req.body.position}','${req.body.degree}','${req.body.bd}','${req.body.depart}','${req.body.email}','${req.body.password})`, (err, rows, fields) => {
+            if (!err) {
+                if (req.body.id == 0) {
+                    res.redirect('/admin');
                 }
-            })
+                else {
+                    res.redirect('/doctor');
+                }
+                console.log('Doctor inserted');
+            } else {
+                console.log(err);
+            }
+        })
 
         }
-        });
+
+});
 
 //delete doctor
 router.get('/delete',(req,res)=>{
@@ -100,12 +104,14 @@ router.post('/delete',(req,res)=>{
     let sql = 'DELETE FROM doctor where ID = ?';
     sqlConnection.query(sql, [req.body.id], (err, rows, fields) => {
         if (!err)
-            res.redirect('/home/doctor');
+            res.redirect('/doctor');
         else
             console.log(err);
     })
 });
 
 
-
+router.get('/doctor',(req,res)=>{
+    res.render('home/doctor');
+});
 module.exports = router;

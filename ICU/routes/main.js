@@ -37,6 +37,7 @@ router.get('/admin',(req,res)=>{
     res.render('home/admin');
 });
 
+
 router.get('/patient',(req,res)=>{
     res.render('home/patient');
 });

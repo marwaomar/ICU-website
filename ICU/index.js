@@ -14,7 +14,8 @@ const methodOverride = require('method-override');
 const bcrypt = require('bcryptjs');
 //we add the middle ware for the public folder and join it to the path to call our styles from it
 app.use(express.static(path.join(__dirname,'public')));
-
+const doctor = require('./routes/home/doctor');
+const mysql = require('mysql2');
 
 //we add the middle wares for the engine
 app.engine('handlebars',exphbs({defaultLayout: 'home'}));
@@ -35,7 +36,7 @@ app.use(methodOverride('_method'));
 //use --- midlleware
 // / (means every file in maain will start with / login registration
 app.use('/',main);
-
+app.use('/',doctor);
 
 
 const port = process.env.PORT || 2000;
