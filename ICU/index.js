@@ -33,7 +33,7 @@ app.use(methodOverride('_method'));
 
 
 //use --- midlleware
-// / (means every file in main will start with / login registration
+// / (means every file in maain will start with / login registration
 app.use('/',main);
 
 

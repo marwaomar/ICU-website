@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6cbc62a-6ace-4211-8f3f-67ad94f87b0c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ICU/views/home/p_login.handlebars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ICU/views/home/thank_you.handlebars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICU/routes/home/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICU/routes/home/doctor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICU/views/home/delete.handlebars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICU/views/home/select.handlebars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICU/views/home/update.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ICU/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ICU/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ICU/public/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/ICU/public/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ICU/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/ICU/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ICU/public/scss/_breadcrumb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ICU/public/scss/_breadcrumb.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ICU/routes/home/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/ICU/routes/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ICU/scss/_breadcrumb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ICU/scss/_breadcrumb.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ICU/views/home/SignUp1.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/ICU/views/home/SignUp1.handlebars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ICU/views/home/aboutUs.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/ICU/views/home/aboutUs.handlebars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ICU/views/home/contact.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/ICU/views/home/contact.handlebars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ICU/views/home/contactUs.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/ICU/views/home/contactUs.handlebars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ICU/views/home/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/ICU/views/home/index.handlebars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ICU/views/home/login.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/ICU/views/home/login.handlebars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ICU/views/home/thankyou.handlebars" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ICU/views/layouts/home.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/ICU/views/layouts/home.handlebars" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,71 +26,41 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ICU/routes/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+            <state relative-caret-position="250">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="p_login.handlebars" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ICU/views/home/p_login.handlebars">
+      <file leaf-file-name="SignUp1.handlebars" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ICU/views/home/SignUp1.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="241">
+              <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="admin.handlebars" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ICU/views/home/admin.handlebars">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="contactUs.handlebars" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ICU/views/home/contactUs.handlebars">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-            </state>
-          </provider>
+      <file leaf-file-name="select.handlebars" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ICU/views/home/select.handlebars">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="thank_you.handlebars" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ICU/views/home/thank_you.handlebars">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-            </state>
-          </provider>
+      <file leaf-file-name="update.handlebars" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ICU/views/home/update.handlebars">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="login.handlebars" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ICU/views/home/login.handlebars">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ICU/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="54" column="71" lean-forward="true" selection-start-line="54" selection-start-column="71" selection-end-line="54" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="patient.handlebars" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ICU/views/home/patient.handlebars">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="184" column="22" selection-start-line="184" selection-start-column="22" selection-end-line="184" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SignUp1.handlebars" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ICU/views/home/SignUp1.handlebars">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="84" column="41" selection-start-line="84" selection-start-column="41" selection-end-line="84" selection-end-column="41" />
+            <state relative-caret-position="200">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -107,17 +68,35 @@
       <file leaf-file-name="index.handlebars" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ICU/views/home/index.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="129" selection-start-line="129" selection-end-line="129" />
+            <state relative-caret-position="250">
+              <caret line="138" column="87" selection-start-line="138" selection-start-column="87" selection-end-line="138" selection-end-column="87" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.handlebars" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ICU/views/layouts/home.handlebars">
+      <file leaf-file-name="admin.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ICU/routes/home/admin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="57" column="48" lean-forward="true" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="48" />
+            <state relative-caret-position="300">
+              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="doctor.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ICU/routes/home/doctor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="70" column="25" lean-forward="true" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="doctor.handlebars" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ICU/views/home/doctor.handlebars">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -144,14 +123,17 @@
         <option value="$PROJECT_DIR$/ICU/views/home/plogin.handlebars" />
         <option value="$PROJECT_DIR$/ICU/views/layouts/home.handlebars" />
         <option value="$PROJECT_DIR$/ICU/views/home/p_login.handlebars" />
-        <option value="$PROJECT_DIR$/ICU/index.js" />
         <option value="$PROJECT_DIR$/ICU/views/home/contactUs.handlebars" />
         <option value="$PROJECT_DIR$/ICU/views/home/thank_you.handlebars" />
         <option value="$PROJECT_DIR$/ICU/views/home/admin.handlebars" />
         <option value="$PROJECT_DIR$/ICU/views/home/login.handlebars" />
         <option value="$PROJECT_DIR$/ICU/views/home/patient.handlebars" />
         <option value="$PROJECT_DIR$/ICU/routes/main.js" />
+        <option value="$PROJECT_DIR$/ICU/index.js" />
+        <option value="$PROJECT_DIR$/ICU/routes/home/admin.js" />
         <option value="$PROJECT_DIR$/ICU/views/home/SignUp1.handlebars" />
+        <option value="$PROJECT_DIR$/ICU/views/home/doctor.handlebars" />
+        <option value="$PROJECT_DIR$/ICU/routes/home/doctor.js" />
       </list>
     </option>
   </component>
@@ -197,6 +179,13 @@
               <item name="Nodejs_Backend" type="462c0819:PsiDirectoryNode" />
               <item name="ICU" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Nodejs_Backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Nodejs_Backend" type="462c0819:PsiDirectoryNode" />
+              <item name="ICU" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Nodejs_Backend" type="b2602c69:ProjectViewProjectNode" />
@@ -274,18 +263,20 @@
       <updated>1576947132342</updated>
       <workItem from="1576947135332" duration="2424000" />
       <workItem from="1576949574114" duration="2015000" />
-      <workItem from="1576951604226" duration="1689000" />
+      <workItem from="1576951604226" duration="2289000" />
+      <workItem from="1576993536780" duration="2988000" />
+      <workItem from="1577003077673" duration="12781000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6128000" />
+    <option name="totallyTimeSpent" value="22497000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32980832" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -303,6 +294,25 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32905984" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32905984" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -311,6 +321,111 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ICU/views/home/patient.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3128">
+          <caret line="184" column="22" selection-start-line="184" selection-start-column="22" selection-end-line="184" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICU/views/home/SignUp1.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="84" column="41" selection-start-line="84" selection-start-column="41" selection-end-line="84" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICU/views/home/index.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2193">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICU/views/layouts/home.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="48" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICU/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICU/routes/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICU/views/home/p_login.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICU/views/home/admin.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICU/views/home/contactUs.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICU/views/home/thank_you.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICU/views/home/login.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="71" lean-forward="true" selection-start-line="54" selection-start-column="71" selection-end-line="54" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICU/views/home/patient.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3128">
+          <caret line="184" column="22" selection-start-line="184" selection-start-column="22" selection-end-line="184" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICU/views/home/index.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2193">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICU/views/layouts/home.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="48" lean-forward="true" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICU/views/home/SignUp1.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="84" column="41" selection-start-line="84" selection-start-column="41" selection-end-line="84" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ICU/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -438,80 +553,98 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ICU/views/home/loginp.handlebars" />
-    <entry file="file://$PROJECT_DIR$/ICU/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ICU/views/home/contactUs.handlebars">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ICU/views/home/thank_you.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ICU/views/home/index.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="129" selection-start-line="129" selection-end-line="129" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ICU/views/home/admin.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ICU/views/home/login.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="54" column="71" lean-forward="true" selection-start-line="54" selection-start-column="71" selection-end-line="54" selection-end-column="71" />
+        <state>
+          <caret line="54" column="71" selection-start-line="54" selection-start-column="71" selection-end-line="54" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICU/views/home/p_login.handlebars">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICU/views/layouts/home.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="57" column="48" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ICU/views/home/patient.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="184" column="22" selection-start-line="184" selection-start-column="22" selection-end-line="184" selection-end-column="22" />
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ICU/routes/main.js">
+    <entry file="file://$PROJECT_DIR$/ICU/views/home/delete.handlebars">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICU/views/home/select.handlebars">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICU/views/home/update.handlebars">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICU/views/home/index.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+        <state relative-caret-position="250">
+          <caret line="138" column="87" selection-start-line="138" selection-start-column="87" selection-end-line="138" selection-end-column="87" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ICU/views/layouts/home.handlebars">
+    <entry file="file://$PROJECT_DIR$/ICU/views/home/admin.handlebars">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICU/views/home/SignUp1.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="57" column="48" lean-forward="true" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="48" />
+        <state relative-caret-position="241">
+          <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ICU/views/home/p_login.handlebars">
+    <entry file="file://$PROJECT_DIR$/ICU/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICU/views/home/doctor.handlebars">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ICU/views/home/SignUp1.handlebars">
+    <entry file="file://$PROJECT_DIR$/ICU/routes/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="84" column="41" selection-start-line="84" selection-start-column="41" selection-end-line="84" selection-end-column="41" />
+        <state relative-caret-position="250">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICU/routes/home/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICU/routes/home/doctor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="70" column="25" lean-forward="true" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
         </state>
       </provider>
     </entry>
