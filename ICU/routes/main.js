@@ -85,7 +85,11 @@ router.post('/SignUp1', (req, res) => {
                 });
             });
         }
+<<<<<<< HEAD
         res.redirect('/');
+=======
+        res.redirect('/login');
+>>>>>>> 920654cb4b430cab5b0fa2926ef3855aa2d02210
     });
 });
 //troubleshooting:

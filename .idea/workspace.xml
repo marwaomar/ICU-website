@@ -4,6 +4,14 @@
     <list default="true" id="f6cbc62a-6ace-4211-8f3f-67ad94f87b0c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ICU/routes/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/ICU/routes/main.js" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/ICU/views/home/doctor.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/ICU/views/home/doctor.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICU/views/home/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/ICU/views/home/index.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICU/views/home/login.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/ICU/views/home/login.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICU/views/home/patient.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/ICU/views/home/patient.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICU/views/home/signUp1.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/ICU/views/home/signUp1.handlebars" afterDir="false" />
+>>>>>>> 920654cb4b430cab5b0fa2926ef3855aa2d02210
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,9 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ICU/routes/main.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="300">
               <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
             </state>
@@ -31,6 +40,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1975">
               <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
+=======
+            <state relative-caret-position="135">
+              <caret line="88" column="4" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="7" />
+>>>>>>> 920654cb4b430cab5b0fa2926ef3855aa2d02210
             </state>
           </provider>
         </entry>
@@ -38,8 +51,13 @@
       <file leaf-file-name="login.handlebars" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ICU/views/home/login.handlebars">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="850">
               <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+=======
+            <state relative-caret-position="440">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+>>>>>>> 920654cb4b430cab5b0fa2926ef3855aa2d02210
             </state>
           </provider>
         </entry>
@@ -47,8 +65,31 @@
       <file leaf-file-name="home.handlebars" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ICU/views/layouts/home.handlebars">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1900">
               <caret line="76" column="14" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="14" />
+=======
+            <state relative-caret-position="264">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="patient.handlebars" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ICU/views/home/patient.handlebars">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="176" column="61" selection-start-line="176" selection-start-column="61" selection-end-line="176" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="patientsignup.handlebars" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ICU/views/home/patientsignup.handlebars">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="99" column="40" lean-forward="true" selection-start-line="99" selection-start-column="40" selection-end-line="99" selection-end-column="40" />
+>>>>>>> 920654cb4b430cab5b0fa2926ef3855aa2d02210
             </state>
           </provider>
         </entry>
@@ -56,8 +97,13 @@
       <file leaf-file-name="index.handlebars" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ICU/views/home/index.handlebars">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="3450">
               <caret line="138" column="87" selection-start-line="138" selection-start-column="87" selection-end-line="138" selection-end-column="87" />
+=======
+            <state relative-caret-position="154">
+              <caret line="7" column="76" lean-forward="true" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
+>>>>>>> 920654cb4b430cab5b0fa2926ef3855aa2d02210
             </state>
           </provider>
         </entry>
@@ -65,8 +111,13 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ICU/index.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="150">
               <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+=======
+            <state relative-caret-position="352">
+              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+>>>>>>> 920654cb4b430cab5b0fa2926ef3855aa2d02210
             </state>
           </provider>
         </entry>
@@ -74,7 +125,11 @@
       <file leaf-file-name="admin.handlebars" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ICU/views/home/admin.handlebars">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="2475">
+=======
+            <state relative-caret-position="2178">
+>>>>>>> 920654cb4b430cab5b0fa2926ef3855aa2d02210
               <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
             </state>
           </provider>
@@ -91,6 +146,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ICU/node_modules/express/lib/router/index.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -103,6 +159,15 @@
       <file leaf-file-name="doctor.handlebars" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ICU/views/home/doctor.handlebars">
           <provider selected="true" editor-type-id="text-editor" />
+=======
+      <file leaf-file-name="doctor.handlebars" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ICU/views/home/doctor.handlebars">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="37">
+              <caret line="119" column="43" selection-start-line="119" selection-start-column="43" selection-end-line="119" selection-end-column="43" />
+            </state>
+          </provider>
+>>>>>>> 920654cb4b430cab5b0fa2926ef3855aa2d02210
         </entry>
       </file>
     </leaf>
@@ -114,6 +179,7 @@
       <find>doctor</find>
       <find>mysql</find>
       <find>/doctor</find>
+      <find>patien</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -143,8 +209,9 @@
         <option value="$PROJECT_DIR$/ICU/routes/home/doctor.js" />
         <option value="$PROJECT_DIR$/ICU/index.js" />
         <option value="$PROJECT_DIR$/ICU/views/home/login.handlebars" />
-        <option value="$PROJECT_DIR$/ICU/views/home/doctor.handlebars" />
         <option value="$PROJECT_DIR$/ICU/routes/main.js" />
+        <option value="$PROJECT_DIR$/ICU/views/home/doctor.handlebars" />
+        <option value="$PROJECT_DIR$/ICU/views/home/patientsignup.handlebars" />
       </list>
     </option>
   </component>
@@ -192,9 +259,15 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="x" value="-10" />
     <option name="width" value="785" />
     <option name="height" value="835" />
+=======
+    <option name="x" value="950" />
+    <option name="width" value="978" />
+    <option name="height" value="1038" />
+>>>>>>> 920654cb4b430cab5b0fa2926ef3855aa2d02210
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -325,24 +398,33 @@
       <workItem from="1576993536780" duration="2988000" />
       <workItem from="1577003077673" duration="23298000" />
       <workItem from="1577037527199" duration="10971000" />
+<<<<<<< HEAD
       <workItem from="1577095087364" duration="19415000" />
       <workItem from="1577127594646" duration="1008000" />
+=======
+      <workItem from="1577095087364" duration="14786000" />
+      <workItem from="1577120160241" duration="4538000" />
+>>>>>>> 920654cb4b430cab5b0fa2926ef3855aa2d02210
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="64408000" />
+=======
+    <option name="totallyTimeSpent" value="63309000" />
+>>>>>>> 920654cb4b430cab5b0fa2926ef3855aa2d02210
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.18968935" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.1956378" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34615386" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34188035" />
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32905984" />
       <window_info id="Favorites" order="1" side_tool="true" />
@@ -571,13 +653,6 @@
     <entry file="file://$PROJECT_DIR$/ICU/views/home/p_login.handlebars">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ICU/views/home/patient.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ICU/views/home/delete.handlebars">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -624,11 +699,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ICU/helpers/help.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
+        <state relative-caret-position="440">
           <caret line="20" column="80" selection-start-line="20" selection-start-column="80" selection-end-line="20" selection-end-column="144" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/ICU/node_modules/express/lib/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9922">
+          <caret line="457" selection-start-line="457" selection-end-line="457" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 920654cb4b430cab5b0fa2926ef3855aa2d02210
     <entry file="file://$PROJECT_DIR$/ICU/routes/home/doctor.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -640,13 +725,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ICU/views/home/admin.handlebars">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="2475">
           <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
+=======
+        <state relative-caret-position="352">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+>>>>>>> 920654cb4b430cab5b0fa2926ef3855aa2d02210
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ICU/views/home/index.handlebars">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="3450">
           <caret line="138" column="87" selection-start-line="138" selection-start-column="87" selection-end-line="138" selection-end-column="87" />
         </state>
@@ -656,13 +747,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1975">
           <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
+=======
+        <state relative-caret-position="2178">
+          <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ICU/views/home/login.handlebars">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+>>>>>>> 920654cb4b430cab5b0fa2926ef3855aa2d02210
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICU/routes/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="850">
           <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+=======
+        <state relative-caret-position="135">
+          <caret line="88" column="4" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICU/views/home/index.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="76" lean-forward="true" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
+>>>>>>> 920654cb4b430cab5b0fa2926ef3855aa2d02210
         </state>
       </provider>
     </entry>
@@ -671,13 +785,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ICU/views/layouts/home.handlebars">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1900">
           <caret line="76" column="14" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="14" />
+=======
+        <state relative-caret-position="264">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+>>>>>>> 920654cb4b430cab5b0fa2926ef3855aa2d02210
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ICU/index.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="150">
           <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
         </state>
@@ -687,13 +807,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+=======
+        <state relative-caret-position="37">
+          <caret line="119" column="43" selection-start-line="119" selection-start-column="43" selection-end-line="119" selection-end-column="43" />
+>>>>>>> 920654cb4b430cab5b0fa2926ef3855aa2d02210
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ICU/routes/main.js">
+    <entry file="file://$PROJECT_DIR$/ICU/views/home/patientsignup.handlebars">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="99" column="40" lean-forward="true" selection-start-line="99" selection-start-column="40" selection-end-line="99" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICU/views/home/patient.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="300">
           <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+=======
+        <state relative-caret-position="138">
+          <caret line="176" column="61" selection-start-line="176" selection-start-column="61" selection-end-line="176" selection-end-column="61" />
+>>>>>>> 920654cb4b430cab5b0fa2926ef3855aa2d02210
         </state>
       </provider>
     </entry>
