@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6cbc62a-6ace-4211-8f3f-67ad94f87b0c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ICU/routes/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/ICU/routes/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ICU/views/home/login.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/ICU/views/home/login.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICU/views/home/doctor.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/ICU/views/home/doctor.handlebars" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,8 +21,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ICU/routes/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="107" column="15" lean-forward="true" selection-start-line="107" selection-start-column="15" selection-end-line="107" selection-end-column="15" />
+            <state relative-caret-position="275">
+              <caret line="111" column="19" lean-forward="true" selection-start-line="111" selection-start-column="19" selection-end-line="111" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -104,8 +105,8 @@
       <file leaf-file-name="doctor.handlebars" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ICU/views/home/doctor.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+            <state relative-caret-position="361">
+              <caret line="114" column="27" lean-forward="true" selection-start-line="114" selection-start-column="27" selection-end-line="114" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -141,7 +142,6 @@
         <option value="$PROJECT_DIR$/ICU/views/home/patient.handlebars" />
         <option value="$PROJECT_DIR$/ICU/routes/home/admin.js" />
         <option value="$PROJECT_DIR$/ICU/views/home/SignUp1.handlebars" />
-        <option value="$PROJECT_DIR$/ICU/views/home/doctor.handlebars" />
         <option value="$PROJECT_DIR$/ICU/package-lock.json" />
         <option value="$PROJECT_DIR$/ICU/helper/help.js" />
         <option value="$PROJECT_DIR$/ICU/helpers/help.js" />
@@ -149,6 +149,7 @@
         <option value="$PROJECT_DIR$/ICU/routes/home/doctor.js" />
         <option value="$PROJECT_DIR$/ICU/index.js" />
         <option value="$PROJECT_DIR$/ICU/views/home/login.handlebars" />
+        <option value="$PROJECT_DIR$/ICU/views/home/doctor.handlebars" />
         <option value="$PROJECT_DIR$/ICU/routes/main.js" />
       </list>
     </option>
@@ -289,7 +290,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.index.js">
+  <component name="RunManager" selected="Node.js.main.js">
     <configuration name="doctor.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="doctor.js" working-dir="$PROJECT_DIR$/ICU/routes/home" />
     <configuration name="help.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="help.js" working-dir="$PROJECT_DIR$/ICU/helpers" />
     <configuration name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/ICU" />
@@ -325,12 +326,12 @@
       <workItem from="1576993536780" duration="2988000" />
       <workItem from="1577003077673" duration="23298000" />
       <workItem from="1577037527199" duration="10971000" />
-      <workItem from="1577095087364" duration="9988000" />
+      <workItem from="1577095087364" duration="14786000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53973000" />
+    <option name="totallyTimeSpent" value="58771000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -635,13 +636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ICU/views/home/doctor.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ICU/node_modules/express/lib/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4653">
@@ -694,10 +688,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ICU/views/home/doctor.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="114" column="27" lean-forward="true" selection-start-line="114" selection-start-column="27" selection-end-line="114" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ICU/routes/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="107" column="15" lean-forward="true" selection-start-line="107" selection-start-column="15" selection-end-line="107" selection-end-column="15" />
+        <state relative-caret-position="275">
+          <caret line="111" column="19" lean-forward="true" selection-start-line="111" selection-start-column="19" selection-end-line="111" selection-end-column="19" />
         </state>
       </provider>
     </entry>

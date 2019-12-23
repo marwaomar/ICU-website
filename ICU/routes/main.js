@@ -97,18 +97,43 @@ router.post('/login', (req, res) => {
         if (err) throw err;
         console.log("Login Connected!");
 
-        var pass = `SELECT password FROM doctor WHERE ID = ?`;
-        con.query(pass, [req.body.id], async function (err, res) {
-            if (err) throw err;
-        });
-            bcrypt.compare(req.body.password, pass).then((returnPassword) => {
-                console.log('hello');
-                res.redirect('/doctor');
+        var sql = `SELECT * FROM doctor WHERE ID = ?`;
+        con.query(sql, [req.body.id], async function (err,rows,fields) {
+
+            bcrypt.compare(req.body.password, rows[0].Password).then((returnPassword) => {
+                console.log(`this is respone ${returnPassword}`);
+                if(!returnPassword){
+                    console.log('wrong pass');
+                    res.redirect('/login');
+                }
+                else{
+                    console.log('hello');
+
+                    res.render('home/doctor', {doctor: rows[0]});
+                    console.log({doctor : rows[0]});
+                }
 
             });
+
+
+            if (err) throw err;
         });
 
+        });
+
+});/*
+router.get('/login',(req,res)=>{
+    var pass = `SELECT password FROM doctor WHERE ID = ?`;
+    con.query(pass, [req.body.id],  function (err,rows,fields){
+        if (!err) {
+            res.render('home/doctor', {doctor: rows[0]});
+            console.log({doctor : rows[0]});
+        }
+        else
+            console.log(err)
+    }) ;
 });
+*/
     /*
     router.get('/post',(req,res)=>{
         res.render('home/post');
