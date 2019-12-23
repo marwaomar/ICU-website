@@ -65,126 +65,132 @@ router.post('/SignUp1', (req, res) => {
     con.connect(function (err) {
         if (err) throw err;
         console.log("Connected!");
-        //--------
-        //Insert a record in the "customers" table:
-    //const doctor  ={
-      //  ID :  req.body.id
-        //,SSN : req.body.ssn
-        //, F_Name : req.body.fname
-        //,L_Name : req.body.lname
-    //};
-         
-        var sql = `INSERT INTO doctor (ID,SSN, F_Name,L_Name) VALUES ('${req.body.id}', '${req.body.ssn}','${req.body.fname}','${req.body.lname}')`;
-        con.query( sql, function (err, res) {
-            if (err) throw err;
-            console.log("1 record inserted");
-        });
+        if (req.body.password !== req.body.confirm_password) {
+            req.flash("passwords don't match");
+            console.log("passwords don't match");
+            res.render('/signUp1');
+        }
+        else {
+
+            var pass = req.body.password;
+            bcrypt.genSalt(10, (err, salt) => {
+                bcrypt.hash(pass, salt, (err, hash) => {
+                    pass = hash;
+
+                    var sql = `INSERT INTO doctor (ID,SSN, F_Name,L_Name,Admin,Password,Gender,Phone,Address,Position,Degree,birth_of_date,Department,E_mail) VALUES ('${req.body.id}', '${req.body.ssn}','${req.body.fname}','${req.body.lname}','0', '${pass}', '${req.body.gender}', '${req.body.phone}', '${req.body.address}', '${req.body.position}', '${req.body.degree}', '${req.body.bd}', '${req.body.depart}','${req.body.email}')`;
+                    con.query(sql, function (err, res) {
+                        if (err) throw err;
+                        console.log("1 record inserted");
+                    });
+                });
+            });
+        }
+        res.redirect('/doctor');
     });
 });
-
-/*
-router.get('/post',(req,res)=>{
-    res.render('home/post');
-});
-
-
-
-router.get('/login',(req,res)=>{
-    res.render('home/login');
-});
-
-
-
-router.get('/Registration',(req,res)=>{
-    res.render('home/registration');
-});
-
-router.post('/register',(req,res)=>{
-
-    const newUser = new User({
-
-        firstName : req.body.firstName,
-        lastName : req.body.lastName,
-        email : req.body.email,
-        password : req.body.password,
+    /*
+    router.get('/post',(req,res)=>{
+        res.render('home/post');
     });
-    if (req.body.password !== req.body.passwordConfirm) {
-        //  req.flash('not_matched_passwords',"passwords don't match");
-        console.log("passwords don't match");
-        /*res.render('home/registration',{
-            //not_matched_passwords : req.flash('not_matched_passwords'),
+
+
+
+    router.get('/login',(req,res)=>{
+        res.render('home/login');
+    });
+
+
+
+    router.get('/Registration',(req,res)=>{
+        res.render('home/registration');
+    });
+
+    router.post('/register',(req,res)=>{
+
+        const newUser = new User({
+
             firstName : req.body.firstName,
             lastName : req.body.lastName,
             email : req.body.email,
+            password : req.body.password,
         });
-    }else {
+        if (req.body.password !== req.body.passwordConfirm) {
+            //  req.flash('not_matched_passwords',"passwords don't match");
+            console.log("passwords don't match");
+            /*res.render('home/registration',{
+                //not_matched_passwords : req.flash('not_matched_passwords'),
+                firstName : req.body.firstName,
+                lastName : req.body.lastName,
+                email : req.body.email,
+            });
+        }else {
 
-        User.findOne({email: req.body.email}).then(user => {
-            if (!user) {
-                bcrypt.genSalt(10, (err, salt) => {
-                    bcrypt.hash(newUser.password, salt, (err, hash) => {
-                        newUser.password = hash;
-                        newUser.save().then(savedUser => {
-                            //  req.flash('success_register','You are now registered,Please login');
-                            console.log('success_register', 'You are now registered,Please login');
-                            //  res.redirect('/login');
+            User.findOne({email: req.body.email}).then(user => {
+                if (!user) {
+                    bcrypt.genSalt(10, (err, salt) => {
+                        bcrypt.hash(newUser.password, salt, (err, hash) => {
+                            newUser.password = hash;
+                            newUser.save().then(savedUser => {
+                                //  req.flash('success_register','You are now registered,Please login');
+                                console.log('success_register', 'You are now registered,Please login');
+                                //  res.redirect('/login');
+                            });
+                            console.log(hash);
                         });
-                        console.log(hash);
                     });
+                } else {
+                    // req.flash('already_user','The E-mail exists,please login');
+                    console.log('The E-mail exists,please login');
+                    //    res.redirect('/login');
+                }
+            });
+
+
+        }
+    });
+
+
+
+    router.post('/login',(req,res)=>{
+
+        let email =req.body.email;
+        let  password = req.body.password;
+
+
+        User.findOne({email: email}).then(user => {
+            if (user) {
+                bcrypt.compare(password, user.password).then((returnPassword) => {
+                    console.log('hello');
+                    res.redirect('/');
+
                 });
             } else {
                 // req.flash('already_user','The E-mail exists,please login');
-                console.log('The E-mail exists,please login');
-                //    res.redirect('/login');
+                console.log('wrong password');
+                res.render('home/login',{
+                    email : req.body.email,
+                });
+
             }
+
         });
 
 
-    }
-});
 
-
-
-router.post('/login',(req,res)=>{
-
-    let email =req.body.email;
-    let  password = req.body.password;
-
-
-    User.findOne({email: email}).then(user => {
-        if (user) {
-            bcrypt.compare(password, user.password).then((returnPassword) => {
-                console.log('hello');
-                res.redirect('/');
-
-            });
-        } else {
-            // req.flash('already_user','The E-mail exists,please login');
-            console.log('wrong password');
-            res.render('home/login',{
-                email : req.body.email,
-            });
-
-        }
 
     });
+    router.post('/post',(req,res)=> {
 
+        const newPost = new Post({
 
+            Title: req.body.Title,
+            Describe: req.body.Describe,
 
-
-});
-router.post('/post',(req,res)=> {
-
-    const newPost = new Post({
-
-        Title: req.body.Title,
-        Describe: req.body.Describe,
-
+        });
+        newPost.save().then(savedPost => {
+            //  req.flash('success_register','You are now registered,Please login');
+            res.send(savedPost).status(200);
+        });
     });
-    newPost.save().then(savedPost => {
-        //  req.flash('success_register','You are now registered,Please login');
-        res.send(savedPost).status(200);
-    });
-});
-*/
+    */
 module.exports = router;

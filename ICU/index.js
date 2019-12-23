@@ -39,5 +39,5 @@ app.use('/',main);
 //app.use('/',doctor);
 
 
-const port = process.env.PORT || 2000;
+const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`Listening on port ${port}...`));
