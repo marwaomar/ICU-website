@@ -1,4 +1,3 @@
-
 <style media="screen">
   .home_banner_area {
   position: relative;
@@ -62,6 +61,23 @@
       text-align: center;
       color: #fff;
       font-size: 16px; }
+
+
+      h3 {
+         border: 3px solid;
+          border-width: 3px;
+          border-left-width: 3px;
+          border-right-width: 3px;
+          border-color:#5496ff ;
+          width:500px;
+          height: 600px;
+      text-align:center;
+      position: relative;
+      color: black;
+      font-weight: bold;
+
+
+      }
     .personal_text .personal_social li:hover a {
       background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
       background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
@@ -87,6 +103,8 @@
 
 
 </style>
+
+
     <section class="home_banner_area">
                	<div class="container box_1620">
                		<div class="banner_inner d-flex align-items-center">
@@ -99,21 +117,21 @@
     								<div class="personal_text">
 
 
-                      <h3>{{doctor.F_Name}}</h3>
-
-                      <ul class="list basic_info">
-                      <li><b>Department:</b><br>
-                        {{doctor.Department}}</li>
-                      <li> <b>Degree:</b><br>{{doctor.Degree}}</li>
-                      <li><b>ID:</b><br>{{doctor.ID}}</li>
-                      <li><b>Address:</b><br>{{doctor.Address}}</li>
-                      <li><b>Phone Number:</b><br>{{doctor.Phone}}</li>
-                      <li><b>Social Security Number:</b><br>{{doctor.SSN}}</li>
-                      <li><b>Birth Date:</b><br>{{doctor.birth_of_date}}</li>
-                      <li><b>Email:</b><br>{{doctor.E_mail}} </li>
-                      <li><b>Gender:</b><br>{{doctor.Gender}} </li>
-                      </ul>
-
+                      <h2>{{doctor.F_Name}}</h2>
+<h3>
+       <ul class="list basic_info">
+        <li><b>Department:</b><br>
+            {{doctor.Department}}</li>
+        <li> <b>Degree:</b><br>{{doctor.Degree}}}</li>
+        <li><b>ID:</b><br>{{doctor.ID}}</li>
+        <li><b>Address:</b><br>{{doctor.Address}}</li>
+        <li><b>Phone Number:</b><br>{{doctor.Phone}}</li>
+        <li><b>Social Security Number:</b><br>{{doctor.SSN}}</li>
+        <li><b>Birth Date:</b><br>{{doctor.birth-of-date}}</li>
+        <li><b>Email:</b><br>{{doctor.E-mail}} </li>
+        <li><b>Gender:</b><br>{{doctor.Gender}} </li>
+       </ul>
+</h3>
     								</div>
     							</div>
     						</div>
@@ -122,47 +140,83 @@
                 </div>
             </section>
             <section class="testimonials_area p_120">
-                    	<div class="container">
-                    		<div class="main_title">
-                    			<h2>Patients </h2>
-                    			<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $.17 each.</p>
-                    		</div>
-                    		<div class="testi_inner">
-            					<div class="testi_slider owl-carousel">
-            						<div class="item">
-            							<div class="testi_item">
-            								<p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel across her face</p>
-            								<h4>Fanny Spencer</h4>
-            								<a href="#"><i class="fa fa-star"></i></a>
-            								<a href="#"><i class="fa fa-star"></i></a>
-            								<a href="#"><i class="fa fa-star"></i></a>
-            								<a href="#"><i class="fa fa-star"></i></a>
-            								<a href="#"><i class="fa fa-star-half-o"></i></a>
-            							</div>
-            						</div>
-            						<div class="item">
-            							<div class="testi_item">
-            								<p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel across her face</p>
-            								<h4>Fanny Spencer</h4>
-            								<a href="#"><i class="fa fa-star"></i></a>
-            								<a href="#"><i class="fa fa-star"></i></a>
-            								<a href="#"><i class="fa fa-star"></i></a>
-            								<a href="#"><i class="fa fa-star"></i></a>
-            								<a href="#"><i class="fa fa-star-half-o"></i></a>
-            							</div>
-            						</div>
-            						<div class="item">
-            							<div class="testi_item">
-            								<p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel across her face</p>
-            								<h4>Fanny Spencer</h4>
-            								<a href="#"><i class="fa fa-star"></i></a>
-            								<a href="#"><i class="fa fa-star"></i></a>
-            								<a href="#"><i class="fa fa-star"></i></a>
-            								<a href="#"><i class="fa fa-star"></i></a>
-            								<a href="#"><i class="fa fa-star-half-o"></i></a>
-            							</div>
-            						</div>
-            					</div>
-                    		</div>
-                    	</div>
+                      <div class="container">
+                        <div class="main_title">
+                          <h2>About my Qualifications:</h2>
+                        </div>
+                        <div class="testi_inner">
+                      <div class="testi_slider owl-carousel">
+                        <div class="item">
+                          <div class="testi_item">
+                            <p>Primary & Higher Medical Qualifications</p>
+                            <h4>Bachelor of Medicine, Bachelor of Surgery</h4>
+                            <a href="#"><i class="fa fa-star"></i></a>
+                            <a href="#"><i class="fa fa-star"></i></a>
+                            <a href="#"><i class="fa fa-star"></i></a>
+                            <a href="#"><i class="fa fa-star"></i></a>
+                            <a href="#"><i class="fa fa-star-half-o"></i></a>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="testi_item">
+                            <p>Primary & Higher Medical Qualifications</p>
+
+                            <h4>Doctor of Medicine </h4>
+                            <a href="#"><i class="fa fa-star"></i></a>
+                            <a href="#"><i class="fa fa-star"></i></a>
+                            <a href="#"><i class="fa fa-star"></i></a>
+                            <a href="#"><i class="fa fa-star"></i></a>
+                            <a href="#"><i class="fa fa-star-half-o"></i></a>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="testi_item">
+                            <p>Primary & Higher Medical Qualifications</p>
+
+                            <h4>Doctor of Osteopathic Medicine </h4>
+                            <a href="#"><i class="fa fa-star"></i></a>
+                            <a href="#"><i class="fa fa-star"></i></a>
+                            <a href="#"><i class="fa fa-star"></i></a>
+                            <a href="#"><i class="fa fa-star"></i></a>
+                            <a href="#"><i class="fa fa-star-half-o"></i></a>
+                          </div>
+                        </div>
+                    <div class="item">
+                      <div class="testi_item">
+                        <p>Primary & Higher Medical Qualifications</p>
+
+                        <h4>Master of Surgery</h4>
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star-half-o"></i></a>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="testi_item">
+                        <p>Primary & Higher Medical Qualifications</p>
+
+                        <h4>Doctor of Medicine by research</h4>
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star-half-o"></i></a>
+                      </div>
+                    </div><div class="item">
+                      <div class="testi_item">
+                        <p>Primary & Higher Medical Qualifications</p>
+
+                        <h4>Master of Surgery</h4>
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star-half-o"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                    </div>
+                  </div>
                     </section>

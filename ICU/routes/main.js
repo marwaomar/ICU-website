@@ -85,7 +85,7 @@ router.post('/SignUp1', (req, res) => {
                 });
             });
         }
-        res.redirect('/doctor');
+        res.redirect('/login');
     });
 });
 //troubleshooting:

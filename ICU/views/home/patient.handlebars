@@ -1,5 +1,20 @@
 
 <style media="screen">
+h3 {
+       border: 3px solid;
+        border-width: 3px;
+        border-left-width: 3px;
+        border-right-width: 3px;
+        border-color:#5496ff ;
+        width:500px;
+        height: 600px;
+    text-align:center;
+    position: relative;
+    color: black;
+    font-weight: bold;
+
+
+    }
   .home_banner_area {
   position: relative;
   z-index: 1;
@@ -142,6 +157,8 @@
                     </div>
                 </div>
             </nav>
+                </div>
+
     </header>
 
 
@@ -152,34 +169,42 @@
     					<div class="banner_content">
     						<div class="media">
     							<div class="d-flex">
-    								<img src="kiro2.jpg" width="600px" height="600px" alt="">
+    										<img src="patient.jpg" width="600px" height="600px" alt="">
     							</div>
     							<div class="media-body">
     								<div class="personal_text">
-    									<h6>Hello Everybody, i am</h6>
-    									<h3>Donald McKinney</h3>
 
-    									<ul class="list basic_info">
-    									<li><b>Birth</b>: 14 March 1900(39y.o)</li>
-                      <li> <b>Gender</b>:Male</li>
-                      <li><b>Address</b>:54 Santa monica bullevard-london</li>
-                      <li><b>Email</b>: DonaldMcKinney72@gmail.com </li>
-                      <li><b>Phone</b>:44 (012) 6954 783</li>
-                      <li><b>languages</b>: English,German</li>
-                      <li><b>Blood Type</b> :01</li>
-                      <li><b>Allergies</b>:Honey,some peanuts</li>
-                      <li><b>Disese</b>:Diabetes </li>
+    									<h2>{{patientt.F_Name}}</h2>
+                      <h3>
+                          									<ul class=>
+                                                             <li><b>Phone</b>{{patientt.Phone}}</li>
+                                                             <li><b>ID</b>{{patientt.ID}}</li>
+                                                              <li><b>Age:</b>{{patientt.Age}}</li>
+                                                              <li><b>Entry Date</b>: {{patientt.Date_of_entry}} </li>
+                                                             <li> <b>Gender</b>{{patientt.Genger}}</li>
 
-    									</ul>
-    									<ul class="list personal_social">
-    										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-    										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-    										<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-    									</ul>
-    								</div>
-    							</div>
-    						</div>
-    					</div>
-    				</div>
-                </div>
-            </section>
+                                                            <li><b>Health Information</b></li>
+                                                            </ul>
+                                            <ul>
+                                                  <form>
+                                                          <div class="form-group">
+                                                            <label for="exampleFormControlFile1">Medication:</label> <br>
+                                                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                                          </div>
+                                                        </form>
+                                                        <form>
+                                                              <div class="form-group">
+                                                                <label for="exampleFormControlFile1">Health Status:</label>
+                                                                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                                              </div>
+                                                            </form>
+                                                </ul>
+
+                      </h3>
+                          								</div>
+                          							</div>
+                          						</div>
+                          					</div>
+                          				</div>
+                                      </div>
+                                  </section>
