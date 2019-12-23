@@ -49,7 +49,7 @@ router.get('/patient',(req,res)=>{
 });
 var mysql = require('mysql');
 
-var con = mysql.createConnection({
+var pool = mysql.createPool({
     host: "localhost",
     user: "root",
     database: "icu"
@@ -62,7 +62,7 @@ router.get('/doctor',(req,res)=>{
 router.post('/SignUp1', (req, res) => {
     console.log('data sent!!!!!!');
     console.log(req.body);
-    con.connect(function (err) {
+    pool.getConnection(function (err) {
         if (err) throw err;
         console.log("Connected!");
         if (req.body.password !== req.body.confirm_password) {
@@ -85,7 +85,7 @@ router.post('/SignUp1', (req, res) => {
                 });
             });
         }
-        res.redirect('/doctor');
+        res.redirect('/');
     });
 });
 //troubleshooting:
@@ -93,18 +93,18 @@ router.post('/SignUp1', (req, res) => {
 
 // var ID = req.body.id;
 router.post('/login', (req, res) => {
-    con.connect(function (err) {
+    pool.getConnection(function (err) {
         if (err) throw err;
         console.log("Login Connected!");
 
         var sql = `SELECT * FROM doctor WHERE ID = ?`;
-        con.query(sql, [req.body.id], async function (err,rows,fields) {
+        pool.query(sql, [req.body.id], async function (err,rows,fields) {
 
             bcrypt.compare(req.body.password, rows[0].Password).then((returnPassword) => {
                 console.log(`this is respone ${returnPassword}`);
                 if(!returnPassword){
-                    console.log('wrong pass');
-                    res.redirect('/login');
+                    console.log('wrong pass')
+                    res.redirect('/login')
                 }
                 else{
                     console.log('hello');
