@@ -3,7 +3,9 @@ const router = express.Router();
 //const User = require('../../models/User');
 //const Post = require('../../models/Post');
 const bcrypt = require('bcryptjs');
-
+const bodyParser = require('body-parser');
+const app = express();
+app.use(bodyParser.json());
 //router.all('/*',(req,res,next)=>{
   //  req.app.locals.layout = 'home';
     //next();
@@ -40,6 +42,37 @@ router.get('/admin',(req,res)=>{
 
 router.get('/patient',(req,res)=>{
     res.render('home/patient');
+});
+var mysql = require('mysql');
+
+var con = mysql.createConnection({
+    host: "localhost",
+    user: "root",
+    database: "icu"
+});
+router.get('/doctor',(req,res)=>{
+    res.render('home/doctor');
+});
+
+
+router.post('/signUp1', (req, res) => {
+    con.connect(function (err) {
+        if (err) throw err;
+        console.log("Connected!");
+        //Insert a record in the "customers" table:
+    //const doctor  ={
+      //  ID :  req.body.id
+        //,SSN : req.body.ssn
+        //, F_Name : req.body.fname
+        //,L_Name : req.body.lname
+    //};
+
+        var sql = `INSERT INTO doctor (ID,SSN, F_Name,L_Name) VALUES ('${req.body.id}', '${req.body.ssn}','${req.body.fname}','${req.body.lname}')`;
+        con.query( sql, function (err, res) {
+            if (err) throw err;
+            console.log("1 record inserted");
+        });
+    });
 });
 /*
 router.get('/post',(req,res)=>{

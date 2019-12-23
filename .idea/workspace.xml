@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6cbc62a-6ace-4211-8f3f-67ad94f87b0c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/ICU/helpers/help.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ICU/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ICU/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICU/public/js/jquery.form.js" beforeDir="false" afterPath="$PROJECT_DIR$/ICU/public/js/jquery.form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ICU/routes/home/doctor.js" beforeDir="false" afterPath="$PROJECT_DIR$/ICU/routes/home/doctor.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ICU/routes/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/ICU/routes/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ICU/views/home/SignUp1.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/ICU/views/home/signUp1.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICU/views/home/login.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/ICU/views/home/login.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICU/views/home/signUp1.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/ICU/views/home/signUp1.handlebars" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,11 +23,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ICU/routes/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="150">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.handlebars" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ICU/views/home/login.handlebars">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="36" column="90" selection-start-line="36" selection-start-column="90" selection-end-line="36" selection-end-column="90" />
             </state>
           </provider>
         </entry>
@@ -32,40 +44,17 @@
       <file leaf-file-name="signUp1.handlebars" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ICU/views/home/signUp1.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="118" selection-start-line="118" selection-end-line="118" />
+            <state relative-caret-position="361">
+              <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.handlebars" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ICU/views/home/admin.handlebars">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ICU/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package-lock.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="69" column="13" lean-forward="true" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ICU/package-lock.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="757" lean-forward="true" selection-start-line="757" selection-end-line="757" />
+            <state relative-caret-position="50">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -88,11 +77,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="doctor.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="doctor.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ICU/routes/home/doctor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+            <state relative-caret-position="50">
+              <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ICU/node_modules/express/lib/router/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="424" selection-start-line="424" selection-end-line="424" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="help.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ICU/helpers/help.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -100,7 +107,7 @@
       <file leaf-file-name="doctor.handlebars" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ICU/views/home/doctor.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
+            <state relative-caret-position="25">
               <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
             </state>
           </provider>
@@ -134,15 +141,18 @@
         <option value="$PROJECT_DIR$/ICU/views/home/contactUs.handlebars" />
         <option value="$PROJECT_DIR$/ICU/views/home/thank_you.handlebars" />
         <option value="$PROJECT_DIR$/ICU/views/home/admin.handlebars" />
-        <option value="$PROJECT_DIR$/ICU/views/home/login.handlebars" />
         <option value="$PROJECT_DIR$/ICU/views/home/patient.handlebars" />
         <option value="$PROJECT_DIR$/ICU/routes/home/admin.js" />
         <option value="$PROJECT_DIR$/ICU/views/home/SignUp1.handlebars" />
         <option value="$PROJECT_DIR$/ICU/views/home/doctor.handlebars" />
-        <option value="$PROJECT_DIR$/ICU/routes/main.js" />
-        <option value="$PROJECT_DIR$/ICU/routes/home/doctor.js" />
-        <option value="$PROJECT_DIR$/ICU/index.js" />
         <option value="$PROJECT_DIR$/ICU/package-lock.json" />
+        <option value="$PROJECT_DIR$/ICU/helper/help.js" />
+        <option value="$PROJECT_DIR$/ICU/helpers/help.js" />
+        <option value="$PROJECT_DIR$/ICU/index.js" />
+        <option value="$PROJECT_DIR$/ICU/views/home/login.handlebars" />
+        <option value="$PROJECT_DIR$/ICU/views/home/signUp1.handlebars" />
+        <option value="$PROJECT_DIR$/ICU/routes/home/doctor.js" />
+        <option value="$PROJECT_DIR$/ICU/routes/main.js" />
       </list>
     </option>
   </component>
@@ -158,6 +168,35 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/ICU/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ansicolors/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bignumber.js/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/cardinal/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/denque/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/esprima/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/generate-function/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/is-property/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/long/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/lru-cache/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/mysql/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/mysql2/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/named-placeholders/node_modules/lru-cache/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/named-placeholders/node_modules/yallist/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/named-placeholders/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/process-nextick-args/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/pseudomap/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/redeyed/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/seq-queue/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/sqlstring/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/util-deprecate/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/yallist/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -171,6 +210,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,6 +222,12 @@
               <item name="Nodejs_Backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="Nodejs_Backend" type="462c0819:PsiDirectoryNode" />
               <item name="ICU" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Nodejs_Backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Nodejs_Backend" type="462c0819:PsiDirectoryNode" />
+              <item name="ICU" type="462c0819:PsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Nodejs_Backend" type="b2602c69:ProjectViewProjectNode" />
@@ -213,7 +259,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,17 +284,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.index.js">
+  <component name="RunManager" selected="Node.js.main.js">
+    <configuration name="doctor.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="doctor.js" working-dir="$PROJECT_DIR$/ICU/routes/home" />
+    <configuration name="help.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="help.js" working-dir="$PROJECT_DIR$/ICU/helpers" />
     <configuration name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/ICU" />
     <configuration name="main.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/ICU/routes/main.js" working-dir="$PROJECT_DIR$/ICU/routes/home" />
     <list>
       <item itemvalue="Node.js.index.js" />
       <item itemvalue="Node.js.main.js" />
+      <item itemvalue="Node.js.help.js" />
+      <item itemvalue="Node.js.doctor.js" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.index.js" />
         <item itemvalue="Node.js.main.js" />
+        <item itemvalue="Node.js.doctor.js" />
+        <item itemvalue="Node.js.help.js" />
       </list>
     </recent_temporary>
   </component>
@@ -267,26 +318,27 @@
       <workItem from="1576949574114" duration="2015000" />
       <workItem from="1576951604226" duration="2289000" />
       <workItem from="1576993536780" duration="2988000" />
-      <workItem from="1577003077673" duration="18876000" />
+      <workItem from="1577003077673" duration="23298000" />
+      <workItem from="1577037527199" duration="10971000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28592000" />
+    <option name="totallyTimeSpent" value="43985000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32980832" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.32980832" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32905984" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34615386" />
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32905984" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -296,25 +348,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32905984" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32905984" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -322,21 +355,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ICU/views/layouts/home.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="57" column="48" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ICU/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ICU/routes/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -544,13 +568,6 @@
     <entry file="file://$PROJECT_DIR$/ICU/views/home/thank_you.handlebars">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ICU/views/home/login.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="54" column="71" selection-start-line="54" selection-start-column="71" selection-end-line="54" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ICU/views/home/p_login.handlebars">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -587,6 +604,20 @@
     <entry file="file://$PROJECT_DIR$/ICU/views/home/admin.handlebars">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/ICU/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18925">
+          <caret line="757" lean-forward="true" selection-start-line="757" selection-end-line="757" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ICU/routes/home/admin.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -594,23 +625,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ICU/views/home/signUp1.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="118" selection-start-line="118" selection-end-line="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ICU/routes/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ICU/views/home/doctor.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
+        <state relative-caret-position="25">
           <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
         </state>
       </provider>
@@ -622,31 +639,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ICU/index.js">
+    <entry file="file://$PROJECT_DIR$/ICU/node_modules/express/lib/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="225">
+          <caret line="424" selection-start-line="424" selection-end-line="424" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ICU/package-lock.json">
+    <entry file="file://$PROJECT_DIR$/ICU/helpers/help.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="757" lean-forward="true" selection-start-line="757" selection-end-line="757" />
+        <state relative-caret-position="298">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
+    <entry file="file://$PROJECT_DIR$/ICU/views/home/login.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="69" column="13" lean-forward="true" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+        <state relative-caret-position="50">
+          <caret line="36" column="90" selection-start-line="36" selection-start-column="90" selection-end-line="36" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICU/views/home/signUp1.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ICU/routes/home/doctor.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICU/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICU/routes/main.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
         </state>
       </provider>
     </entry>
