@@ -88,6 +88,27 @@ router.post('/SignUp1', (req, res) => {
         res.redirect('/doctor');
     });
 });
+//troubleshooting:
+
+
+// var ID = req.body.id;
+router.post('/login', (req, res) => {
+    con.connect(function (err) {
+        if (err) throw err;
+        console.log("Login Connected!");
+
+        var pass = `SELECT password FROM doctor WHERE ID = ?`;
+        con.query(pass, [req.body.id], async function (err, res) {
+            if (err) throw err;
+        });
+            bcrypt.compare(req.body.password, pass).then((returnPassword) => {
+                console.log('hello');
+                res.redirect('/doctor');
+
+            });
+        });
+
+});
     /*
     router.get('/post',(req,res)=>{
         res.render('home/post');
