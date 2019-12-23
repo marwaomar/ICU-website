@@ -78,18 +78,17 @@ router.post('/SignUp1', (req, res) => {
                     pass = hash;
 
                     var sql = `INSERT INTO doctor (ID,SSN, F_Name,L_Name,Admin,Password,Gender,Phone,Address,Position,Degree,birth_of_date,Department,E_mail) VALUES ('${req.body.id}', '${req.body.ssn}','${req.body.fname}','${req.body.lname}','0', '${pass}', '${req.body.gender}', '${req.body.phone}', '${req.body.address}', '${req.body.position}', '${req.body.degree}', '${req.body.bd}', '${req.body.depart}','${req.body.email}')`;
-                    con.query(sql, function (err, res) {
+                    pool.query(sql, function (err, res) {
                         if (err) throw err;
                         console.log("1 record inserted");
                     });
                 });
             });
         }
-<<<<<<< HEAD
-        res.redirect('/');
-=======
+
+
         res.redirect('/login');
->>>>>>> 920654cb4b430cab5b0fa2926ef3855aa2d02210
+
     });
 });
 //troubleshooting:

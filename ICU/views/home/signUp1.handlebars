@@ -32,93 +32,93 @@
                      <div class="col-lg-12">
                          <div class="appointment-form">
 
-                             <form action="#">
+                             <form action="/signUp1" method="post">
                                       <div class="form-group">
                                      <label>First Name:</label>
-                                     <input type="text" placeholder="First Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'First Name'" required>
+                                     <input name="fname" type="text" placeholder="First Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'First Name'" required>
                                      </div>
                                      <div class="form-group">
                                     <label>Last Name:</label>
-                                    <input type="text" placeholder="Last Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Last Name'" required>
+                                    <input name="lname" type="text" placeholder="Last Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Last Name'" required>
                                     </div>
                                      <div class="form-group">
                                     <label>Department:</label>
-                                    <input type="text" placeholder="Your Department" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Department'" required>
+                                    <input name="depart" type="text" placeholder="Your Department" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Department'" required>
                                     </div>
                                     <div class="form-group">
                                    <label>Degree *Optional*:</label>
-                                   <input type="text" placeholder="Your Degree" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Degree'" Optional>
+                                   <input name="degree" type="text" placeholder="Your Degree" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Degree'" Optional>
                                    </div>
                                    <div class="form-group">
                                   <label>ID:</label>
-                                  <input type="text" placeholder="Your ID" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your ID'" required>
+                                  <input  name="id" type="text" placeholder="Your ID" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your ID'" required>
                                   </div>
                                   <div class="form-group">
                                  <label>Address:</label>
-                                 <input type="text" placeholder="Your Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Address'" required>
+                                 <input name="address" type="text" placeholder="Your Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Address'" required>
                                  </div>
 
 
 
                                      <div class="form-group">
                                      <label>Phone Number:</label>
-                                     <input type="phone number" placeholder="Your Number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Phone Number'" required>
+                                     <input name="phone" type="phone number" placeholder="Your Number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Phone Number'" required>
                                      </div>
 
 
 
                                      <div class="form-group">
                                      <label>Social Security Number:</label>
-                                     <input type="text" placeholder="SSN" onfocus="this.placeholder = ''" onblur="this.placeholder = 'SSN'" required>
+                                     <input name="ssn" type="text" placeholder="SSN" onfocus="this.placeholder = ''" onblur="this.placeholder = 'SSN'" required>
                                      </div>
                                      <div class="form-group">
                                      <label>Birth Date:</label>
-                                     <input type="text" placeholder="MM/DD/YYY" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Birthdate'" required>
+                                     <input name="bd" type="text" placeholder="MM/DD/YYY" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Birthdate'" required>
                                      </div>
 
 
                                      <div class="form-group">
                                      <label>Email:</label>
-                                     <input type="email" placeholder="Your Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email'" required>
+                                     <input name="email" type="email" placeholder="Your Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email'" required>
                                      </div>
 
 
                                      <div class="form-group">
                                      <label>Password:</label>
-                                     <input type="Password" placeholder="Your Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Password'" required>
+                                     <input name="password" type="Password" placeholder="Your Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Password'" required>
                                      </div>
                                      <div class="form-group">
                                      <label> Confirm Password:</label>
-                                     <input type="Password" placeholder="Confirm Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Confirm Password'" required>
+                                     <input name="confirm_password" type="Password" placeholder="Confirm Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Confirm Password'" required>
                                      </div>
                                      <div class="form-group">
                                      <label>Job Position:</label>
-                                     <input type="text" placeholder=" Position" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Position'" required>
+                                     <input name="position" type="text" placeholder=" Position" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Position'" required>
                                      </div>
 
                                      <div class="form-group">
                                      <label>Gender:</label>
-                                   <select  id="Gender"required>
-                                     <option value="Male">Male</option>
-                                     <option value="Female">Female</option>
+                                   <select name="gender" id="Gender"required>
+                                     <option name="gender" value="Male">Male</option>
+                                     <option name="gender" value="Female">Female</option>
 
                                    </select>
                                    <br>
 
 
 
-                             </form>
+
 
                          </div>
 
                      </div>
                      <div class="">
-                       <p> <a href="#" class="main_btn">Sign Up</a></p>
+                       <p> <button class="main_btn">Sign Up</button></p>
 
                      </div>
                  </div>
 
-
+                      </form>
              </div>
 
          </div>
