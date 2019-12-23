@@ -1,5 +1,7 @@
 const express = require('express');
+const path = require('path');
 const router = express.Router();
+
 //const User = require('../../models/User');
 //const Post = require('../../models/Post');
 const bcrypt = require('bcryptjs');
@@ -25,7 +27,9 @@ router.get('/contactUs',(req,res)=>{
     res.render('home/contactUs');
 });
 router.get('/signUp1',(req,res)=>{
-    res.render('home/signUp1');
+    console.log('connected to signup page!');
+    res.render('home/SignUp1');
+    //res.sendFile(path.join(__dirname, '..', 'views', 'home', 'SignUp1.html'));
 });
 
 router.get('/p_login',(req,res)=>{
@@ -55,10 +59,13 @@ router.get('/doctor',(req,res)=>{
 });
 
 
-router.post('/signUp1', (req, res) => {
+router.post('/SignUp1', (req, res) => {
+    console.log('data sent!!!!!!');
+    console.log(req.body);
     con.connect(function (err) {
         if (err) throw err;
         console.log("Connected!");
+        //--------
         //Insert a record in the "customers" table:
     //const doctor  ={
       //  ID :  req.body.id
@@ -66,7 +73,7 @@ router.post('/signUp1', (req, res) => {
         //, F_Name : req.body.fname
         //,L_Name : req.body.lname
     //};
-
+         
         var sql = `INSERT INTO doctor (ID,SSN, F_Name,L_Name) VALUES ('${req.body.id}', '${req.body.ssn}','${req.body.fname}','${req.body.lname}')`;
         con.query( sql, function (err, res) {
             if (err) throw err;
@@ -74,6 +81,7 @@ router.post('/signUp1', (req, res) => {
         });
     });
 });
+
 /*
 router.get('/post',(req,res)=>{
     res.render('home/post');
