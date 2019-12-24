@@ -8,7 +8,7 @@ router.all('/*', (req, res, next) => {
 router.get('/admin', (req, res) => {
     res.render('layouts/admin')
 });
-
+//
 // //select all doctors
 // router.get('/', (req,res)=>{
 //     let sql =  'SELECT * FROM doctor'
@@ -17,7 +17,7 @@ router.get('/admin', (req, res) => {
 //             res.render('home/doctor',{doctor : rows});
 //         } else {
 //             console.log(err);
-
+//
 //         }
 //     });
 // });

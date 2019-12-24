@@ -83,22 +83,22 @@ body {font-size:16px; }
       <li><a href="dashboard.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Dashboard.</a></li>
 
 
-        <li><a href="/" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home.</a></li>
+        <li><a href="../home/" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home.</a></li>
         <li class="nav-item submenu dropdown">
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Staff</a>
             <ul class="dropdown-menu">
-                <li class="nav-item"><a class="nav-link" href="/doctor">Doctors</a></li>
+                <li class="nav-item"><a class="nav-link" href="../home/doctor">Doctors</a></li>
 
                 <li class="nav-item"><a class="nav-link" href="/engineer">Clinical Engineers</a></li>
 
             </ul>
         </li>
-        <li><a href="/patient" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Patients.</a></li>
+        <li><a href="../home/patient" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Patients.</a></li>
 
       <li><a href="/Equipment" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Equipments and Systems.</a></li>
 
-                  <li><a href="/aboutUs" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About Us.</a></li>
-                  <li><a href="/contactUs" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact Us.</a></li>
+                  <li><a href="../home/aboutUs" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About Us.</a></li>
+                  <li><a href="../home/contactUs" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact Us.</a></li>
 
 
 
@@ -121,52 +121,52 @@ body {font-size:16px; }
 
   <!-- Header -->
   <div class="w3-container" style="margin-top:40px" id="showcase">
-    <h1><b>Donald McKinney</b></h1>
+    <h1><b>{{doctor.F_Name}}</b></h1>
      <!-- <section class="appointment-area area-padding"> -->
 
 
 <h3>
   <br>
-                                   <p>Department: Surgical</p>
+                                   <p>Department: {{doctor.L_Name}}</p>
 
 <br>
-                                  <p>Degree: MD-PhD</p>
+                                  <p>Degree: {{doctor.Degree}}</p>
 <br>
 
-                                 <p>ID: 00000000</p>
-
-<br>
-
-                                <p>Address: 40 Elgam3a street</p>
+                                 <p>ID: {{doctor.Degree}}</p>
 
 <br>
 
-
-                                    <p>Phone Number: 011111111111</p>
-
+                                <p>Address:{{doctor.Address}}</p>
 
 <br>
 
 
-
-                                    <p>Social Security Number: 2697045565165</p>
-<br>
-                                    <p>Birth Date: 29/1/1960</p>
-<br>
-
-
-
-
-                                    <p>Email: admin@gmail.com</p>
+                                    <p>Phone Number:{{doctor.Phone}}</p>
 
 
 <br>
 
-                                    <p>Job Position: Manager of Hospital</p>
+
+
+                                    <p>Social Security Number: {{doctor.SSN}}</p>
+<br>
+                                    <p>Birth Date: {{doctor.birth-of-date}}</p>
+<br>
+
+
+
+
+                                    <p>Email: {{doctor.E-mail}}</p>
 
 
 <br>
-                                    <p>Gender: Male</p>
+
+                                    <p>Job Position: {{doctor.Position}}</p>
+
+
+<br>
+                                    <p>Gender: {{doctor.Gender}}</p>
 
 <br>
                                 </h3>

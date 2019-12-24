@@ -39,7 +39,7 @@ router.get('/thank_you',(req,res)=>{
 
 
 router.get('/patient',(req,res)=>{
-    res.render('home/patient');
+    res.render('adminview/patient');
 });
 var mysql = require('mysql');
 
