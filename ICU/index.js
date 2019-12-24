@@ -16,7 +16,7 @@ const bcrypt = require('bcryptjs');
 app.use(express.static(path.join(__dirname,'public')));
 const patient = require('./routes/patient');
 const mysql = require('mysql');
-
+const admin = require('./routes/home/admin');
 //we add the middle wares for the engine
 app.engine('handlebars',exphbs({defaultLayout: 'home'}));
 app.set('view engine','handlebars');
@@ -37,7 +37,7 @@ app.use(methodOverride('_method'));
 // / (means every file in maain will start with / login registration
 app.use('/',main);
 app.use('/',patient);
-
+app.use('/',admin);
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`Listening on port ${port}...`));

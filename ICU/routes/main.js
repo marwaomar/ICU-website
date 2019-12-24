@@ -1,9 +1,6 @@
 const express = require('express');
 const path = require('path');
 const router = express.Router();
-
-//const User = require('../../models/User');
-//const Post = require('../../models/Post');
 const bcrypt = require('bcryptjs');
 const bodyParser = require('body-parser');
 const app = express();
@@ -39,9 +36,6 @@ router.get('/thank_you',(req,res)=>{
     res.render('home/thank_you');
 });
 
-router.get('/admin',(req,res)=>{
-    res.render('home/admin');
-});
 
 
 router.get('/patient',(req,res)=>{
@@ -111,11 +105,16 @@ router.post('/login', (req, res) => {
                 }
                 else{
                     console.log('hello');
+                    if(rows[0].admin === 1){
+                        res.render('home/doctor', {doctor: rows[0]});
+                        console.log({doctor : rows[0]});
 
+                    }
+                    else{
                     res.render('home/doctor', {doctor: rows[0]});
                     console.log({doctor : rows[0]});
                 }
-
+                }
             });
 
 
